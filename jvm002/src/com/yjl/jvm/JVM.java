@@ -2,7 +2,7 @@ package com.yjl.jvm;
 
 /**
  * @author yjl
- * @Description 66666
+ * @Description 6
  * @create 2022-01-03
  */
 public class JVM {
