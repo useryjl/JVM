@@ -16,7 +16,7 @@ public class TestMain {
         //方法引用： 对象名::实例方法名
         Supplier<String> supplier= myInterface::getString;
 
-        //
+        //Lambda表达式
         Supplier<String> stringSupplier=()->{
             System.out.println("====这是Lambda表达式====");
             return myInterface.getString();
