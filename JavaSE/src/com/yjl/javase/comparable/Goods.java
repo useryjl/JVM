@@ -13,6 +13,7 @@ public class Goods implements Comparable<Goods>{
 
     @Override
     public boolean equals(Object o) {
+        System.out.println("equals方法执行了");
         if (this == o) return true;
         if (!(o instanceof Goods)) return false;
         Goods goods = (Goods) o;
